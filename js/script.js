@@ -2,7 +2,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     // Konfigurasi Typed.js
     const options = {
-        strings: ['predictive models.', 'interactive dashboards.', 'solutions with data.'],
+        strings: ['develop websites.', 'manage database.', 'analyze data.'],
         typeSpeed: 50,
         backSpeed: 30,
         backDelay: 2000,
