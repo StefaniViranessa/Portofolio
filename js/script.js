@@ -22,7 +22,7 @@ const observer = new IntersectionObserver((entries, observer) => {
     entries.forEach(entry => {
         if (entry.isIntersecting) {
           
-          entry.target.classList.add('visible', 'fade-in'); // variasi animasi 
+          entry.target.classList.add('visible', 'fade-in');
           observer.unobserve(entry.target); // hanya animasi sekali
         }
     });
