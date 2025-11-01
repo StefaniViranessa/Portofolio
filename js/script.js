@@ -2,7 +2,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     // Konfigurasi Typed.js
     const options = {
-        strings: ['predictive models.', 'interactive dashboards.', 'solutions with data.'],
+        strings: ['develop websites.', 'manage database.', 'analyze data.'],
         typeSpeed: 50,
         backSpeed: 30,
         backDelay: 2000,
@@ -22,7 +22,7 @@ const observer = new IntersectionObserver((entries, observer) => {
     entries.forEach(entry => {
         if (entry.isIntersecting) {
           
-          entry.target.classList.add('visible', 'fade-in'); // variasi animasi 
+          entry.target.classList.add('visible', 'fade-in');
           observer.unobserve(entry.target); // hanya animasi sekali
         }
     });
